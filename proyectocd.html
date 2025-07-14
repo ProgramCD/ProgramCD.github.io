@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyectocd</title>
+    <link rel="stylesheet" href="proyectocd.css">
+    <link rel="stylesheet" href="primavera.html">
+</head>
+<body>
+    <div>
+        <h1>le parfum</h1>
+        <p>le premier parfumerie Francaice en la Colombie</p>
+    </div>
+    <div class="menu">
+        <nav>
+            ><a href="#about">Sobre esta tienda</a>
+            ><a href="#catalogue">Catalogo</a>
+            ><a href="#contact">Contacto</a>
+        </nav>
+    </div>
+    <section id="about"> 
+        <h2>Sobre esta tienda</h2>
+        <p>LE PARFUM es la primera perfumeria francesa en colombia. Nuestra tienda abrió en diciembre de 2020 y desde entonces estamos comprometidos con la provición de la mejores fragancías de temporada</p>
+    </section>
+    <section id="catalogue"></section>
+        <h2>Catálogo</h2>
+        <nav>
+            <a href="primavera.html">primavera</a>
+            <a href="verano.html">verano</a>
+            <a href="otoño.html">otoño</a>
+            <a href="invierno.html">invierno</a>
+        </nav>
+        <div class="gallery">
+        <div class="proyect">
+            <img src="primavera.jpg" alt="primavera">
+             <p>primavera</p>
+        </div>
+        <div class="proyect">
+            <img src="verano.jpg" alt="Proyecto 2">
+            <pp>verano</pp>
+        </div>
+        <div class="proyect">
+            <img src="otoño.jpg" alt="Proyecto 2">
+            <p>otoño</p>
+        </div>
+        <div class="proyect">
+            <img src="invierno.jpg" alt="Proyecto 2">
+            <p>invierno</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form action="/sumbit" method="post">
+         <label for="name">Nombre</label>
+         <input type="text" id="name" name="name" required><br>
+         <label for="email">Correo Electrónico:</label>
+         <input type="email" id="email" name="email" required><br>
+         <label for="message">Mensaje</label>
+         <textarea name="message" id="message" required></textarea><br>
+         <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
