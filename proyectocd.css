@@ -13,6 +13,7 @@ text-align: center;
 justify-content: center;
 margin-left: 50%;
 }
+
 body h1 {
     font-size: xx-large;
     text-align: center;
@@ -28,17 +29,22 @@ margin: 0 10px;
 text-align: center;
 }
 nav ul li a {
-color: #000;
-text-decoration: underline;
-text-align: center; 
-}
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #c58af9;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background 0.3s;
+}; 
+
 .catalogo {
     text-align: center;
 }
 #about {
 padding:20px;
 background-color: rgba(19, 94, 160, 0.329);
-text-align: ;
+text-align:center ;
 }
 #about h2 {
 margin-top: 0;
