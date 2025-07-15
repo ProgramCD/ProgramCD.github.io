@@ -3,30 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="primavera.css">
+    <title>Galería de Perfumes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .tarjeta {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .tarjeta:hover {
+            transform: scale(1.03);
+        }
+
+        .tarjeta img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .tarjeta h3 {
+            padding: 15px 10px;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
 
     <header>
-        <h1>Colección de primavera</h1>
+        <h1>Colección de Otoño</h1>
     </header>
+
     <section class="galeria">
         <div class="tarjeta">
-            <img src="" alt="Perfume 1">
-            <h3>cambios</h3>
+            <img src="https://images.pexels.com/photos/755992/pexels-photo-755992.jpeg" alt="Perfume 1">
+            <h3>Perfume Elegante</h3>
+            <table>
+                </tr>
+                    <td>Fragancías disponibles</td>
+                    <td>precio USD x1</td>
+                    <td>precio USD x12</td>
+                </tr>
+                <tr>
+                    <td>Yves saint Laure - libre intense</td>
+                    <td>$145</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>Chanel coco - mademoiselle intense</td>
+                    <td>$150</td>
+                    <td>$1550</td>
+                </tr>
+            </table>
         </div>
         <div class="tarjeta">
-            <img src="https://images.pexels.com/photos/755992/pexels-photo-755992.jpeg" alt="Perfume 2">
+            <img src="https://images.pexels.com/photos/965731/pexels-photo-965731.jpeg" alt="Perfume 2">
             <h3>Fragancia Floral</h3>
+            <table>                <tr>
+                    <td>Fragancías disponibles</td>
+                    <td>precio USD x1</td>
+                    <td>precio USD x12</td>
+                </tr>
+                <tr>
+                    <td>NR - For her musc noir</td>
+                    <td>$115</td>
+                    <td>$1100</td>
+                </tr>
+                <tr>
+                    <td>burberry - goddess</td>
+                    <td>$135</td>
+                    <td>$1260</td>
+                </tr>
+            </table>
+
         </div>
         <div class="tarjeta">
-            <img src="https://example.com/perfume3.jpg" alt="Perfume 3">
+            <img src="https://images.pexels.com/photos/3059609/pexels-photo-3059609.jpeg" alt="Perfume 3">
             <h3>Estilo Clásico</h3>
+            <table>                <tr>
+                <td>Fragancías disponibles</td>
+                <td>precio USD x1</td>
+                <td>precio USD x12</td>
+            </tr>
+            <tr>
+                <td>Estée - Lauder beautiful</td>
+                <td>$95</td>
+                <td>$890</td>
+            </tr>
+            <tr>
+                <td>Givenchy - Ysatis</td>
+                <td>$150</td>
+                <td>$1600</td>
+            </tr></table>
         </div>
         <div class="tarjeta">
-            <img src="https://example.com/perfume4.jpg" alt="Perfume 4">
+            <img src="https://images.pexels.com/photos/1961792/pexels-photo-1961792.jpeg" alt="Perfume 4">
             <h3>Toque Moderno</h3>
+            <table>
+                <tr>
+                    <td>Fragancías disponibles</td>
+                    <td>precio USD x1</td>
+                    <td>precio USD x12</td>
+                </tr>
+                <tr>
+                    <td>Versace - bright crystal</td>
+                    <td>$95</td>
+                    <td>$800</td>
+                </tr>
+                <tr>
+                    <td>Dolce & gabana - light blue sun</td>
+                    <td>$100</td>
+                    <td>$1000</td>
+                </tr>
+            </table>
         </div>
     </section>
 
